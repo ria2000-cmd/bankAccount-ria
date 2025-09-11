@@ -17,6 +17,13 @@ mvn clean install
 #### Run the Application
 mvn spring-boot:run
 
+
+### basic auth
+spring.security.user.name=admin
+spring.security.user.password=secret123
+spring.security.user.roles=ADMIN
+
+
 #### Create account api
 POST /bank-app/accounts
 Content-Type: application/json
