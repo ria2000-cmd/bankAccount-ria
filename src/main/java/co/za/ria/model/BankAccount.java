@@ -34,7 +34,6 @@ public class BankAccount {
     @Positive(message = "Balance must be positive")
     private BigDecimal balance;
 
-    @NotNull
     private Boolean isAccountActive;
 
 }
